@@ -1,6 +1,5 @@
 add_executable(
 	happynwinclient
-	PUBLIC
 	happynwinclient.cpp
 	netadapter.cpp
 	sinstance.cpp
