@@ -1,0 +1,27 @@
+add_executable(
+	happynwinclient
+	PUBLIC
+	happynwinclient.cpp
+	netadapter.cpp
+	sinstance.cpp
+	systemsrv.cpp
+	tray.cpp
+	netinterface.cpp
+	process.cpp
+	registry.cpp
+	service.cpp
+	utils.cpp
+
+	maingui.h
+	netinterface.h
+	netadapter.h
+	process.h
+	registry.h
+	resource.h
+	service.h
+	sinstance.h
+	systemsrv.h
+	tray.h
+	utils.h
+	winerr.h
+)
